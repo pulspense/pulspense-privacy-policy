@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulsPense Account & Data Deletion Request</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #f8f8f8;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #DC3545; /* Red, for deletion topic */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+        ul {
+            list-style-type: decimal; /* Numbered list for steps */
+            margin-left: 25px;
+            margin-bottom: 1em;
+        }
+        ul.alpha {
+            list-style-type: lower-alpha; /* Alphabetical for sub-steps */
+        }
+        li {
+            margin-bottom: 0.8em;
+        }
+        .note {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .contact-email {
+            color: #4CAF50;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .app-name {
+            font-weight: bold;
+            color: #673AB7; /* Deep Purple, similar to your app's primary color */
+        }
+    </style>
+</head>
+<body>
+    <h1>PulsPense Account & Data Deletion Request</h1>
+
+    <p>This page provides instructions for users of the <span class="app-name">PulsPense</span> mobile application to request the deletion of their account and associated data.</p>
+
+    <div class="note">
+        <strong>Important Note:</strong> PulsPense is designed to be a local-first financial tracking app. This means the vast majority of your sensitive financial transaction data is stored directly on your device and is not sent to our servers. Account creation in PulsPense primarily refers to linking your Google account for optional cloud backup.
+    </div>
+
+    <h2>Steps to Delete Your Data:</h2>
+
+    <h3>1. Deleting Local App Data (on your device)</h3>
+    <p>All your financial transaction data (income, expenses, categories, notes, images attached to transactions) is stored locally on your device. To delete this data:</p>
+    <ul>
+        <li>Open the <span class="app-name">PulsPense</span> app.</li>
+        <li>Navigate to the "Settings" screen.</li>
+        <li>Find and tap on the "Delete All Records" option.</li>
+        <li>Follow the on-screen prompts to confirm the permanent deletion of all local data.</li>
+    </ul>
+    <p><strong>What is deleted:</strong> All financial transaction records, custom categories, user profile image, and app preferences stored directly on your device.</p>
+    <p><strong>Retention:</strong> This data is immediately and permanently removed from your device upon confirmation. If the app is uninstalled, all local data is also removed by the operating system.</p>
+
+    <h3>2. Deleting Cloud Backup Data (from Google Drive)</h3>
+    <p>If you have used the optional Google Drive Backup feature in <span class="app-name">PulsPense</span>, your backup files are stored in a hidden "App Data" folder within your personal Google Drive. This data is entirely under your control.</p>
+    <p>You have two ways to delete your <span class="app-name">PulsPense</span> backup data from Google Drive:</p>
+    <ul>
+        <li><strong>Option A: From within the PulsPense App:</strong>
+            <ul class="alpha">
+                <li>Open the <span class="app-name">PulsPense</span> app.</li>
+                <li>Navigate to the "Backup & Restore" screen.</li>
+                <li>Ensure you are signed in to Google Drive.</li>
+                <li>Find and tap on the "Delete All Backups" option.</li>
+                <li>Follow the on-screen prompts to confirm the permanent deletion of all backup files from your Google Drive App Data folder.</li>
+            </ul>
+        </li>
+        <li><strong>Option B: Using Google Drive on a Web Browser:</strong>
+            <ul class="alpha">
+                <li>Go to Google Drive on a web browser: <a href="https://drive.google.com/" target="_blank">drive.google.com</a></li>
+                <li>Click the **Settings gear icon** (⚙️) in the top right corner.</li>
+                <li>Select **"Settings"** from the dropdown menu.</li>
+                <li>In the left sidebar, click on **"Manage apps"**.</li>
+                <li>Scroll through the list of connected apps until you find **"<span class="app-name">PulsPense</span>"**.</li>
+                <li>Next to <span class="app-name">PulsPense</span>, click **"Options"** and then select **"Delete hidden app data"**.</li>
+                <li>Confirm the deletion when prompted.</li>
+            </ul>
+        </li>
+    </ul>
+    <p><strong>What is deleted:</strong> All backup files previously created by PulsPense and stored in your Google Drive App Data folder.</p>
+    <p><strong>Retention:</strong> This data is immediately and permanently removed from your Google Drive upon confirmation by you.</p>
+
+    <h3>3. Requesting Account Deletion (Google Account Link)</h3>
+    <p>When you use Google Sign-In in <span class="app-name">PulsPense</span> for backup, you are linking your Google account to the app. To remove this link:</p>
+    <ul>
+        <li>You can sign out of your Google account within the <span class="app-name">PulsPense</span> app's backup/restore settings.</li>
+        <li>You can also revoke app access from your Google Account settings:
+            <ul class="alpha">
+                <li>Go to your Google Account: <a href="https://myaccount.google.com/" target="_blank">myaccount.google.com</a></li>
+                <li>In the left navigation panel, click **"Security"**.</li>
+                <li>Scroll down to "Third-party apps with account access" and click **"Manage third-party access"**.</li>
+                <li>Find <span class="app-name">PulsPense</span> in the list and click on it.</li>
+                <li>Click **"Remove Access"**.</li>
+            </ul>
+        </li>
+    </ul>
+    <p><strong>What is deleted/removed:</strong> This action revokes PulsPense's permission to access your Google Drive App Data folder. It does not delete data already backed up until you perform Step 2.</p>
+    <p><strong>Retention:</strong> The link is immediately removed. Your Google account itself remains active.</p>
+
+    <h3>4. For Further Assistance</h3>
+    <p>If you have any questions about data deletion, or require further assistance, please contact our support team:</p>
+    <p><a href="mailto:pulspensehelpdesk@gmail.com" class="contact-email">pulspensehelpdesk@gmail.com</a></p>
+
+    <p>We are committed to protecting your privacy and ensuring you have full control over your data.</p>
+</body>
+</html>
